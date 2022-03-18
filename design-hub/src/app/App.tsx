@@ -6,7 +6,7 @@ import {
   Link,
 } from 'react-router-dom';
 import './App.css';
-import Landing from './../pages/Landing.tsx';
+// import Landing from './../pages/Landing.tsx';
 
 export const  App = () => {
   return (
@@ -15,13 +15,13 @@ export const  App = () => {
             <main>
                 <Switch>
                     <Route path="/about">
-                        <Landing />
+                        {/* <Landing /> */}
                     </Route>
                     <Route path="/:user_id">
-                        <Users />
+                        {/* <Users /> */}
                     </Route>
                     <Route path="/">
-                        <Home />
+                        {/* <Home /> */}
                     </Route>
                 </Switch>
             </main>
